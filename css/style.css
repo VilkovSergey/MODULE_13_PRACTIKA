@@ -49,7 +49,7 @@ body {
 /* ----------------------------------- */
 .header {
   min-height: 700px;
-  padding: 60px 0 150px;;
+  padding: 60px 0 150px;
   background-color: var(--Rectangle_color);
 }
 .menu__iner_iner {
@@ -128,6 +128,9 @@ body {
 /* End header */
 /* ------------------------------------ */
 /* Start section - about-me */
+.about-me {
+  margin-bottom: 111px;
+}
 .content {
   display: flex;
   flex-direction: column;
@@ -145,5 +148,30 @@ body {
 }
 /* End section - about-me */
 /* ---------------------------------------- */
-
-
+/* Start section - numbers */
+.numbers {
+  margin-top: 200px;
+  background-color: var(--Rectangle2_color);
+  height: 250px;
+}
+.numbers__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.numbers__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  padding: 89px 0 102px;
+}
+.numbers__h3 {
+  margin-bottom: 5px;
+}
+/* End section - numbers */
+/* ---------------------------------------------- */
+/* Start section - skills */
+.skills {
+  padding: 91px 0;
+}
