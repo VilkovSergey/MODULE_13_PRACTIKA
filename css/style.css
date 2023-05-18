@@ -18,7 +18,7 @@ body {
   font-weight: 400;
 }
 .container__V {
-  max-width: 1110px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 :root {
@@ -49,73 +49,101 @@ body {
 /* ----------------------------------- */
 .header {
   min-height: 700px;
+  padding: 60px 0 150px;;
   background-color: var(--Rectangle_color);
-}
-.menu__iner {
 }
 .menu__iner_iner {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
+  margin-bottom: 130px;
 }
 .logo {
-  margin-top: 58px;
-  margin-bottom: 161px;
-  padding-left: 124px;
-  padding-right: 198px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
 }
 .nav {
   display: flex;
   list-style: none;
+  align-items: center;
+  gap: 42px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 26px;
-  padding-right: 391px;
-  padding-top: 52px;
+  height: 16px;
+  letter-spacing: 0.1em;
 }
 .nav li a {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 10px 10px;
-  color: #000;
+  padding: 10px 10px 10px;
+  color: inherit;
 }
+.nav li a:last-child {
+  padding-right: 0;
+} 
 .nav li a:hover {
   color: var(--Rectangle2_color);
 }
 .first-screen__button {
   display: flex;
-  justify-content: flex-start;
-  align-items: start;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo2 {
-  padding-left: 200px;
-  margin-right: 80px;
+  margin-right: 130px;
+  margin-left: 80px;
+  width: 357px;
+  height: 234px;
 }
 .text__title {
+  padding-left: 80px;
 }
 .text__h1_h1 {
-  padding-bottom: 30px;
+  margin-bottom: 60px;
 }
 .text__p_p {
-  width: 530px;
-  padding-bottom: 30px;
-}
-.modal {
-}
-.modal-content {
-}
-.modal-footer {
-}
-.modal-close {
-}
-.waves-effect {
-}
-.waves-green {
-}
-.btn-flat {
+  max-width: 520px;
+  margin-bottom: 60px;
 }
 .text__title_btn {
+  display: inline-block;
+  border: none;
+  background-color: var(--Rectangle2_color);
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 20px 0 0 0;
+  width: 225px;
+  height: 65px;
 }
-.modal-trigger {
+.text__title_btn:hover {
+  background-color: red;
 }
+/* End header */
+/* ------------------------------------ */
+/* Start section - about-me */
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 510px;
+  height: 147px;
+  margin: 0 auto;
+}
+.about-me_h2 {
+  padding-top: 112px;
+  margin-bottom: 30px;
+}
+.about-me_p {
+  padding-bottom: 100px;
+}
+/* End section - about-me */
+/* ---------------------------------------- */
+
+
