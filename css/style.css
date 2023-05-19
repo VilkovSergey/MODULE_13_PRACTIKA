@@ -207,3 +207,23 @@ body {
 /* End section - skills */
 /* ----------------------------------------- */
 /* Start section - my__job */
+.my__job {
+  background-color:#EEEFF1;
+  text-align: center;
+  height: 1004px;
+  margin-bottom: 22px;
+}
+.my__job_h2 {
+  padding-top: 91px;
+}
+.my__job_p {
+  margin: 0 auto;
+  width: 515px;
+  padding-top: 50px;
+  padding-bottom: 57px;
+}
+iframe {
+  padding-bottom: 60px;
+}
+/* End section - my__job */
+/* ------------------------------------------------- */
