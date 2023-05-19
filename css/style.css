@@ -173,5 +173,37 @@ body {
 /* ---------------------------------------------- */
 /* Start section - skills */
 .skills {
-  padding: 91px 0;
+  padding: 100px 0;
 }
+.skills__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills__h2 {
+  margin-bottom: 50px;
+}
+.skills__p {
+  margin-bottom: 20px;
+}
+.skills__progress_bar {
+  display: flex;
+  width: 450px;
+  height: 4px;
+  background-color: #C4C4C4;
+  margin-bottom: 30px;
+}
+.skills__progress_bar:last-child {
+  margin-bottom: 0;
+}
+.skills__progress_bar_completed {
+  background-color: var(--Rectangle2_color);
+}
+.skills__img {
+  width: 350px;
+  height: 470px;
+  margin-right: 100px;
+}
+/* End section - skills */
+/* ----------------------------------------- */
+/* Start section - my__job */
