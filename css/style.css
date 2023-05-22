@@ -24,6 +24,7 @@ body {
 :root {
   --Rectangle_color: #EEEFF1;
   --Rectangle2_color: #34547A;
+  --White-color: #fff;
 }
 .text__h1 {
   font-family: 'Roboto', sans-serif;
@@ -239,3 +240,79 @@ iframe {
 }
 /* End section - projects */
 /* -------------------------------------------- */
+/* Start section - clients */
+.clients__flex {
+  display: flex;
+  justify-content: center;
+  padding: 72px 0 100px;
+  gap: 30px;
+}
+/* End section - clients */
+/* -------------------------------------------- */
+/* Start section - form__request */
+.form__request {
+  background-color: var(--Rectangle_color);
+  padding: 100px 0;
+}
+.form__request_h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.form__request_p {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto 65px;
+}
+.form__request_form {
+  max-width: 540px;
+  display: grid;
+  grid-template-areas: "a a b b" "c c c c" ". d d .";
+  justify-items: center;
+  margin: 0 auto;
+  gap: 20px;
+}
+.form__request_name {
+  width: 255px;
+  height: 50px;
+  background: var(--White-color);
+  border: none;
+  padding-left: 20px;
+  grid-area: a;
+}
+.form__request_email {
+  width: 255px;
+  height: 50px;
+  background: var(--White-color);
+  border: none;
+  padding-left: 20px;
+  grid-area: b;
+}
+.form__request_message {
+  max-width: 540px;
+  width: 100%;
+  height: 175px;
+  background: var(--White-color);
+  border: none;
+  margin-bottom: 50px;
+  padding: 20px;
+  grid-area: c;
+}
+.form__request_btn {
+  display: block;
+  width: 190px;
+  height: 55px;
+  color: var(--White-color);
+  background: var(--Rectangle2_color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  margin: 0 auto;
+  grid-area: d;
+}
+/* End section - form__request */
+/* ------------------------------------------- */
+/* Start footer */
+
+

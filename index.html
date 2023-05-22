@@ -22,10 +22,10 @@
             <img src="logo/WD.svg" alt="WD">
           </div>
           <ul class="nav">
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Об авторе</a></li>
-            <li><a href="#">Работы</a></li>
-            <li><a href="#">Процесс</a></li>
+            <li><a href="#header">Главная</a></li>
+            <li><a href="#about-me">Об авторе</a></li>
+            <li><a href="#numbers">Работы</a></li>
+            <li><a href="#my__job">Процесс</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
         </div>
@@ -40,8 +40,12 @@
             <!-- Modal Structure -->
             <div id="modal1" class="modal">
             <div class="modal-content">
-              <h4>Заголовок окна</h4>
-              <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
+              <form action="" class="form__request_form">
+                <input type="text" placeholder="Ваше имя" class="form__request_name">
+                <input type="email" placeholder="Ваш e-mail" class="form__request_email">
+                <textarea name="massage" id="massage" placeholder="Сообщение" class="form__request_message"></textarea>
+                <button type="submit" class="form__request_btn">ОТПРАВИТЬ</button>
+              </form>
             </div>
             <div class="modal-footer">
               <a href="#!" class="modal-close waves-effect waves-green btn-flat">Закрыть</a>
@@ -193,6 +197,34 @@
       </div>
     </div>
   </section>
+  <!-- Clients -->
+  <section class="clients">
+    <div class="container__V">
+      <div class="clients__flex">
+        <img class="clients__img" src="img/clients.jpg" alt="clients__img">
+        <img class="clients__img" src="img/clients.jpg" alt="clients__img">
+        <img class="clients__img" src="img/clients.jpg" alt="clients__img">
+        <img class="clients__img" src="img/clients.jpg" alt="clients__img">
+      </div>
+    </div>
+  </section>
+  <!-- Form__request -->
+  <section class="form__request" id="form__request">
+    <h2 class="text__h2 form__request_h2">Хотите веб-сайт?</h2>
+    <p class="text__p form__request_p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+    <form action="" class="form__request_form">
+      <input type="text" placeholder="Ваше имя" class="form__request_name">
+      <input type="email" placeholder="Ваш e-mail" class="form__request_email">
+      <textarea name="massage" id="massage" placeholder="Сообщение" class="form__request_message"></textarea>
+      <button type="submit" class="form__request_btn">ОТПРАВИТЬ</button>
+    </form>
+  </section>
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+
+
+
+  </footer>
 
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
