@@ -227,3 +227,15 @@ iframe {
 }
 /* End section - my__job */
 /* ------------------------------------------------- */
+/* Start section - projects */
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.projects__grid_item {
+  gap: 0;
+  max-width: 480px;
+  max-height: 480px;
+}
+/* End section - projects */
+/* -------------------------------------------- */
