@@ -126,6 +126,49 @@ body {
 .text__title_btn:hover {
   background-color: red;
 }
+@media screen and (max-width: 1280px) {
+  .header {
+    padding-bottom: 100px;
+  }
+  .menu__iner_iner {
+    padding: 0 20px;
+    margin-bottom: 80px;
+  }
+  .nav {
+    gap: 10px;
+  }
+  .first-screen__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .logo2 {
+    margin: 0 auto 30px;
+    width: 357px;
+    height: 234px;
+    /* margin-bottom: 30px; */
+  }
+  .text__h1_h1 {
+    margin: 0 auto 30px;
+    /* margin-bottom: 30px; */
+  }
+  .text__p_p {
+    margin: 0 auto 30px;
+    /* margin-bottom: 30px; */
+  }
+}
+@media screen and (max-width: 380px) {
+  .text__h1_h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .text__p_p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
 /* End header */
 /* ------------------------------------ */
 /* Start section - about-me */
